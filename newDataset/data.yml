@@ -1,0 +1,10 @@
+# Number of classes
+nc: 2
+
+# Class names
+names: ['pig', 'not_pig']
+
+# Paths to dataset
+path: /home/vincentwhite/JptrNotebook/newDataset  # Base dataset directory
+train: /home/vincentwhite/JptrNotebook/newDataset/train/images  # Folder containing training images, relative to `path`
+val: /home/vincentwhite/JptrNotebook/newDataset/val/images    # Folder containing validation images, relative to `path`
