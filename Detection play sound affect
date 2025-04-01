@@ -1,0 +1,22 @@
+from playsound import playsound
+import time
+
+def and_gate(input1, input2):
+    return input1 and input2
+
+def detection_system():
+    print("Detection System Starting...")
+    sensor1 = True
+    sensor2 = True
+    if and_gate(sensor1, sensor2):
+        print("Pig detected!")
+        song_path = r'C:\Users\nj275\OneDrive\Documents\Music\Sail.mp3'
+        try:
+            playsound(song_path)
+        except Exception as e:
+            print(f"no pig': {e}")
+    else:
+        print("No detection - conditions not met.")
+
+if __name__ == "__main__":
+    detection_system()
