@@ -17,5 +17,19 @@ You can use the pretrained weights we have provided in our .zip files or train y
 2. playsound
 3. time
 4. numpy (np)
+5. YOLO
+6. ultralytics
+7. random
+8. matplotlib.pyplot as plt
+9. os
+10. argparse
+11. itertools
+12. torch
+13. yaml
+14. pygame
+15. 
+
+
+
 
 If you're looking to train or test a model through an .ipynb file, ArtemisHogTrainPC.ipynb has the latest scripts with train.py, test.py, and camera.py included. Also has the code to help install the necessary dependencies. Project Artemis is meant to help combat the growing issue of widespread devastation of cropland and help in the extermination of the invasive species wild pigs. This project will not and is not allowed to be used for any malicious intent. 
