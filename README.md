@@ -46,6 +46,10 @@ https://app.roboflow.com/artemis-xexhs/black-hot-3o0iw/1
 15. ffmpeg
 
 
-
+Scripts:
+videoconverter.py - Takes a video in .mp4 format and chops it into frames for importing into a dataset
+Artemis.py- main script for dual camera detection
+Artemis5.py- script that runs both cameras without detection models
+ArtemisAlwaysOn.py- runs script with detection but activation trigger is set to always on for testing intended action (currently audio sound)
 
 If you're looking to train or test a model through an .ipynb file or through terminal with a .py, ArtemisHogTrainPC.ipynb has the latest scripts with train.py, test.py, and camera.py included. Also it has the code to help install the necessary dependencies. AutoTrainModelFinal.py is a training script that will run in a virtual environment using all datasets provided listed above from roboflow running through them iteratively to help determine better accuracy and precision parameters for each dataset. Project Artemis is meant to help combat the growing issue of widespread devastation of cropland and help in the management of the invasive species wild pigs. This project will not and is not allowed to be used for any malicious intent. 
