@@ -20,7 +20,7 @@ https://app.roboflow.com/artemis-xexhs/black-hot-3o0iw/1
 7. Enjoy!!!
 
 #Use with Raspberry Pi5 on Pi OS
-1. Create a virtual environment
+1. Create a and activate virtual environment
 2. Download and ensure all depencies listed below are installed
 3. Use FFplay command from ffmpeg to determine which port the cameras are connected to
 4. Adjust Artemis.py to ensure camera ports are correctly configured
